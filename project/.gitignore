@@ -1,0 +1,65 @@
+# Node.js dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build output
+/dist
+/build
+/out # Some projects might use 'out' instead of 'dist' or 'build'
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing and coverage reports
+/coverage
+.nyc_output/
+.jest_cache/
+
+# Editor/IDE specific files
+.vscode/        # VS Code settings (uncomment if you want to ignore all VS Code settings)
+#.vscode/settings.json    # Uncomment these if you want to track specific VS Code settings
+#.vscode/tasks.json
+#.vscode/launch.json
+#.vscode/extensions.json
+.idea/          # IntelliJ IDEA settings
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.DS_Store       # macOS specific files
+Thumbs.db       # Windows specific files
+
+# Project specific caches and temporary files
+*.tgz           # npm packed tarballs
+.npm/
+.eslintcache
+.parcel-cache/  # If you're using Parcel bundler
+.next/          # If you're using Next.js
+.nuxt/          # If you're using Nuxt.js
+.svelte-kit/    # If you're using SvelteKit
+.history        # VS Code Local History extension
+
+# Vite specific
+.vite/          # Vite's cache and optimized dependencies (sometimes generated, sometimes good to ignore)
+vite-env.d.ts   # If generated automatically and not explicitly tracked
+
+# Misc
+*.pem
+*.key
+*.log
+
+# If you have specific files that are generated and you DON'T want them committed
+# Example: If your project generates a 'report.json' file
+# /report.json
