@@ -72,8 +72,7 @@ const Footer: React.FC<FooterProps> = ({ isDarkMode, onNavigateToSection }) => {
               </div>
             </motion.div>
             <p className={`${themeClasses.text.secondary} text-sm mb-4`}>
-              The ultimate free tool for calculating, testing, and converting mouse DPI settings. 
-              Perfect for gamers, designers, and professionals.
+              The ultimate free tool for calculating, testing, and converting mouse DPI settings.
             </p>
             <div className="flex gap-3">
               {socialLinks.map((social) => (
