@@ -47,53 +47,53 @@ const SEOContent: React.FC<SEOContentProps> = ({ isDarkMode }) => {
   const topGamingMice = [
     {
       rank: 1,
-      name: 'Logitech G Pro X Superlight',
-      dpi: '25,600 DPI',
-      weight: '63g',
-      connectivity: 'Wireless',
-      price: '$149.99',
-      description: 'Perfect for competitive gaming with HERO sensor',
-      affiliateLink: 'https://amazon.com/logitech-g-pro-x-superlight'
+      name: 'ZEBRONICS Transformer-M',
+      dpi: '3,600 DPI',
+      weight: '95g',
+      connectivity: 'Wired',
+     price: '₹299 (was ₹549)',
+      description: 'Budget gaming mouse with RGB lighting and gold-plated USB',
+      affiliateLink: 'https://amzn.to/3VndesW'
     },
     {
       rank: 2,
       name: 'Razer Viper V2 Pro',
       dpi: '30,000 DPI',
-      weight: '58g',
+      weight: '59g',
       connectivity: 'Wireless',
-      price: '$149.99',
-      description: 'Ultra-lightweight with Focus Pro sensor',
-      affiliateLink: 'https://amazon.com/razer-viper-v2-pro'
+     price: '₹7,051 (was ₹17,999)',
+      description: 'Ultra-lightweight wireless with 30K DPI sensor',
+      affiliateLink: 'https://amzn.to/41TR9Wv'
     },
     {
       rank: 3,
-      name: 'Finalmouse Starlight-12 Phantom',
-      dpi: '26,000 DPI',
-      weight: '47g',
-      connectivity: 'Wireless',
-      price: '$189.99',
-      description: 'Ultralight magnesium alloy construction',
-      affiliateLink: 'https://amazon.com/finalmouse-starlight-12'
+      name: 'Ant Esports GM320 RGB',
+      dpi: '12,800 DPI',
+      weight: '120g',
+      connectivity: 'Wired',
+     price: '₹499 (was ₹2,799)',
+      description: '8 programmable buttons with RGB lighting',
+      affiliateLink: 'https://amzn.to/46rSMw7'
     },
     {
       rank: 4,
-      name: 'SteelSeries Rival 650 Wireless',
-      dpi: '12,000 DPI',
-      weight: '121g',
-      connectivity: 'Both',
-      price: '$99.99',
-      description: 'Dual sensor system with weight customization',
-      affiliateLink: 'https://amazon.com/steelseries-rival-650'
+      name: 'Offbeat RIPJAW 2.4Ghz',
+      dpi: '3,200 DPI',
+      weight: '85g',
+      connectivity: 'Wireless',
+     price: '₹899 (was ₹1,099)',
+      description: 'Wireless gaming mouse with silent click buttons',
+      affiliateLink: 'https://amzn.to/4nbCjTQ'
     },
     {
       rank: 5,
-      name: 'Zowie EC2-C',
-      dpi: '3,200 DPI',
-      weight: '70g',
+      name: 'Logitech G102 Light Sync',
+      dpi: '8,000 DPI',
+      weight: '85g',
       connectivity: 'Wired',
-      price: '$69.99',
-      description: 'No software needed, plug and play',
-      affiliateLink: 'https://amazon.com/zowie-ec2-c'
+     price: '₹1,195 (was ₹2,295)',
+      description: 'RGB gaming mouse with 6 programmable buttons',
+      affiliateLink: 'https://amzn.to/46ETfMy'
     }
   ];
 
