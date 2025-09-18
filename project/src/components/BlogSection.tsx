@@ -58,216 +58,180 @@ interface GamingMouse {
 
 const gamingMice: GamingMouse[] = [
   {
-    id: 'logitech-g-pro-x-superlight',
-    name: 'G Pro X Superlight',
-    brand: 'Logitech',
-    image: 'https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 149.99,
-    originalPrice: 179.99,
-    rating: 4.8,
-    reviews: 2847,
-    dpi: '25,600 DPI',
-    weight: '63g',
-    connectivity: 'Wireless',
-    sensor: 'HERO 25K',
+    id: 'zebronics-transformer-m',
+    name: 'Transformer-M',
+    brand: 'ZEBRONICS',
+    image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 299,
+    originalPrice: 549,
+    rating: 4.2,
+    reviews: 28518,
+    dpi: '3,600 DPI',
+    weight: '95g',
+    connectivity: 'Wired',
+    sensor: 'High-Resolution Optical',
     buttons: 5,
-    batteryLife: '70+ hours',
-    rgb: false,
-    category: 'Premium',
+    rgb: true,
+    category: 'Budget',
     pros: [
-      'Ultra-lightweight design at 63g',
-      'Exceptional HERO 25K sensor accuracy',
-      'Long 70+ hour battery life',
-      'Zero latency wireless performance',
-      'Tournament-proven reliability'
+      'Excellent value for money at ₹299',
+      'Multi-color LED lighting effects',
+      'Gold-plated USB connector for durability',
+      'DPI switch for instant sensitivity adjustment',
+      'Ergonomic design for comfortable gaming'
     ],
     cons: [
-      'Premium price point',
-      'No RGB lighting',
-      'Limited customization buttons',
-      'Ambidextrous shape may not suit everyone'
+      'Limited DPI range compared to premium mice',
+      'Wired connection only',
+      'Basic sensor compared to high-end options',
+      'May not suit professional esports players'
     ],
-    bestFor: ['Competitive FPS', 'Esports', 'Low DPI Gaming', 'Tournament Play'],
-    affiliateLink: 'https://amazon.com/logitech-g-pro-x-superlight',
-    description: 'Ultra-lightweight wireless gaming mouse designed for esports professionals',
-    features: ['LIGHTSPEED Wireless', 'HERO 25K Sensor', 'PTFE Feet', 'Ambidextrous Design'],
+    bestFor: ['Budget Gaming', 'Casual Gaming', 'RGB Enthusiasts', 'Entry-Level Gaming'],
+    affiliateLink: 'https://amzn.to/3VndesW',
+    description: 'High-performance budget gaming mouse with RGB lighting and gold-plated USB connector',
+    features: ['Multi-Color LED', 'DPI Switch', 'Gold-Plated USB', 'Ergonomic Design'],
     inStock: true
   },
   {
     id: 'razer-viper-v2-pro',
     name: 'Viper V2 Pro',
     brand: 'Razer',
-    image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 149.99,
-    rating: 4.7,
-    reviews: 1923,
+    image: 'https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 7051,
+    originalPrice: 17999,
+    rating: 3.8,
+    reviews: 30,
     dpi: '30,000 DPI',
-    weight: '58g',
+    weight: '59g',
     connectivity: 'Wireless',
     sensor: 'Focus Pro 30K',
     buttons: 5,
-    batteryLife: '80+ hours',
-    rgb: true,
-    category: 'Premium',
-    pros: [
-      'Lightest wireless mouse at 58g',
-      'Industry-leading 30K DPI sensor',
-      'Excellent build quality and durability',
-      'Customizable RGB lighting',
-      'Optical switches for faster response'
-    ],
-    cons: [
-      'Higher price point',
-      'Shape may not suit larger hands',
-      'Software can be resource-heavy',
-      'Limited grip tape included'
-    ],
-    bestFor: ['Competitive Gaming', 'High DPI Users', 'RGB Enthusiasts', 'Speed Gaming'],
-    affiliateLink: 'https://amazon.com/razer-viper-v2-pro',
-    description: 'Ultra-lightweight wireless gaming mouse with cutting-edge sensor technology',
-    features: ['HyperSpeed Wireless', 'Focus Pro 30K', 'Optical Switches', 'Chroma RGB'],
-    inStock: true
-  },
-  {
-    id: 'finalmouse-starlight-12',
-    name: 'Starlight-12 Phantom',
-    brand: 'Finalmouse',
-    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 189.99,
-    rating: 4.6,
-    reviews: 856,
-    dpi: '26,000 DPI',
-    weight: '47g',
-    connectivity: 'Wireless',
-    sensor: 'PixArt 3370',
-    buttons: 5,
-    batteryLife: '160+ hours',
+    batteryLife: '80 hours',
     rgb: false,
     category: 'Premium',
     pros: [
-      'Lightest gaming mouse ever at 47g',
-      'Premium magnesium alloy construction',
-      'Exceptional build quality',
-      'Ultra-long battery life',
-      'Unique honeycomb design'
+      'Ultra-lightweight at 59g',
+      'Industry-leading 30K DPI sensor',
+      'Hyperspeed wireless technology',
+      'Long 80-hour battery life',
+      'Premium build quality'
     ],
     cons: [
-      'Very expensive',
-      'Limited availability',
+      'Very expensive at ₹7,051',
       'No RGB lighting',
-      'May be too light for some users',
-      'Premium price for niche market'
+      'Limited availability',
+      'May be too light for some users'
     ],
-    bestFor: ['Ultra-Light Gaming', 'Arm Aimers', 'Premium Collectors', 'Competitive Edge'],
-    affiliateLink: 'https://amazon.com/finalmouse-starlight-12',
-    description: 'Revolutionary ultra-lightweight wireless mouse with magnesium construction',
-    features: ['Magnesium Alloy Shell', 'PixArt 3370', 'Honeycomb Design', 'Premium Materials'],
-    inStock: false
-  },
-  {
-    id: 'steelseries-rival-650',
-    name: 'Rival 650 Wireless',
-    brand: 'SteelSeries',
-    image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 99.99,
-    originalPrice: 129.99,
-    rating: 4.5,
-    reviews: 1456,
-    dpi: '12,000 DPI',
-    weight: '121g (customizable)',
-    connectivity: 'Both',
-    sensor: 'TrueMove3+',
-    buttons: 7,
-    batteryLife: '24+ hours',
-    rgb: true,
-    category: 'Pro',
-    pros: [
-      'Dual sensor system for precision',
-      'Customizable weight system',
-      'Excellent ergonomics',
-      'Both wired and wireless modes',
-      'Great value for features'
-    ],
-    cons: [
-      'Heavier than competitors',
-      'Shorter battery life',
-      'Larger size may not suit all hands',
-      'Software learning curve'
-    ],
-    bestFor: ['Palm Grip', 'MMO Gaming', 'Productivity', 'Customization Lovers'],
-    affiliateLink: 'https://amazon.com/steelseries-rival-650',
-    description: 'Feature-rich wireless gaming mouse with dual sensors and weight customization',
-    features: ['Dual Sensor System', 'Weight Tuning', 'Quantum Wireless', 'RGB Lighting'],
+    bestFor: ['Professional Gaming', 'Competitive FPS', 'High-End Gaming', 'Esports'],
+    affiliateLink: 'https://amzn.to/41TR9Wv',
+    description: 'Ultra-lightweight wireless gaming mouse with 30,000 DPI sensor',
+    features: ['HyperSpeed Wireless', 'Focus Pro 30K', 'Optical Switches', 'Ultra-Light'],
     inStock: true
   },
   {
-    id: 'glorious-model-o',
-    name: 'Model O Wireless',
-    brand: 'Glorious',
-    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 79.99,
-    rating: 4.4,
-    reviews: 3241,
-    dpi: '19,000 DPI',
-    weight: '69g',
-    connectivity: 'Wireless',
-    sensor: 'PixArt 3370',
-    buttons: 6,
-    batteryLife: '71+ hours',
+    id: 'ant-esports-gm320',
+    name: 'GM320 RGB Gaming Mouse',
+    brand: 'Ant Esports',
+    image: 'https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 499,
+    originalPrice: 2799,
+    rating: 4.3,
+    reviews: 7470,
+    dpi: '12,800 DPI',
+    weight: '120g',
+    connectivity: 'Wired',
+    sensor: 'Optical Sensor',
+    buttons: 8,
     rgb: true,
     category: 'Budget',
     pros: [
-      'Excellent value for money',
-      'Lightweight honeycomb design',
-      'Great sensor performance',
-      'Strong community support',
-      'Comfortable for most grip styles'
+      'Great value at ₹499 (82% discount)',
+      '8 programmable buttons for customization',
+      'High 12,800 DPI for precision gaming',
+      'RGB lighting with multiple effects',
+      'Ergonomic design with braided cable'
     ],
     cons: [
-      'Honeycomb design collects dust',
-      'Build quality inconsistencies',
-      'Limited premium features',
-      'Software could be better'
+      'Heavier at 120g compared to premium mice',
+      'Wired connection only',
+      'Basic sensor compared to high-end options',
+      'Software may have limited features'
     ],
-    bestFor: ['Budget Gaming', 'First Gaming Mouse', 'Claw Grip', 'RGB Gaming'],
-    affiliateLink: 'https://amazon.com/glorious-model-o-wireless',
-    description: 'Affordable lightweight wireless gaming mouse with honeycomb design',
-    features: ['Honeycomb Shell', 'PixArt 3370', 'RGB Lighting', 'Ascended Cord'],
+    bestFor: ['Budget Gaming', 'MMO Gaming', 'RGB Gaming', 'Programmable Controls'],
+    affiliateLink: 'https://amzn.to/46rSMw7',
+    description: 'RGB optical wired gaming mouse with 8 programmable buttons and ergonomic design',
+    features: ['8 Programmable Buttons', 'RGB Lighting', 'Braided Cable', 'Ergonomic Design'],
     inStock: true
   },
   {
-    id: 'zowie-ec2-c',
-    name: 'EC2-C',
-    brand: 'Zowie',
-    image: 'https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400',
-    price: 69.99,
-    rating: 4.6,
-    reviews: 1876,
+    id: 'offbeat-ripjaw',
+    name: 'RIPJAW 2.4Ghz Wireless',
+    brand: 'Offbeat',
+    image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 899,
+    originalPrice: 1099,
+    rating: 4.2,
+    reviews: 7573,
     dpi: '3,200 DPI',
-    weight: '70g',
-    connectivity: 'Wired',
-    sensor: 'PixArt 3370',
-    buttons: 5,
-    rgb: false,
-    category: 'Pro',
+    weight: '85g',
+    connectivity: 'Wireless',
+    sensor: 'Optical Sensor',
+    buttons: 7,
+    batteryLife: 'Rechargeable',
+    rgb: true,
+    category: 'Wireless',
     pros: [
-      'No software required - plug and play',
-      'Excellent build quality',
-      'Perfect for competitive gaming',
-      'Consistent performance',
-      'Trusted by esports professionals'
+      'Wireless freedom with 2.4GHz connection',
+      'Silent click buttons for quiet operation',
+      '7 programmable buttons',
+      'Rechargeable battery design',
+      'Lightweight at 85g'
     ],
     cons: [
-      'No wireless option',
-      'Limited DPI range',
-      'No RGB lighting',
-      'Fewer customization options',
-      'Basic feature set'
+      'Limited DPI range at 3,200',
+      'Battery life not specified clearly',
+      'May have connectivity issues',
+      'Basic sensor performance'
     ],
-    bestFor: ['Competitive FPS', 'CS:GO/Valorant', 'Consistent Performance', 'No-Software Setup'],
-    affiliateLink: 'https://amazon.com/zowie-ec2-c',
-    description: 'Professional esports gaming mouse with no-software philosophy',
-    features: ['Plug & Play', 'PixArt 3370', 'Paracord Cable', 'PTFE Feet'],
+    bestFor: ['Wireless Gaming', 'Silent Gaming', 'Office Use', 'Casual Gaming'],
+    affiliateLink: 'https://amzn.to/4nbCjTQ',
+    description: 'Rechargeable wireless gaming mouse with silent click buttons and 7D functionality',
+    features: ['2.4GHz Wireless', 'Silent Clicks', 'Rechargeable', '7D Buttons'],
+    inStock: true
+  },
+  {
+    id: 'logitech-g102',
+    name: 'G102 Light Sync',
+    brand: 'Logitech',
+    image: 'https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=400',
+    price: 1195,
+    originalPrice: 2295,
+    rating: 4.3,
+    reviews: 11314,
+    dpi: '8,000 DPI',
+    weight: '85g',
+    connectivity: 'Wired',
+    sensor: 'Gaming Grade Sensor',
+    buttons: 6,
+    rgb: true,
+    category: 'Budget',
+    pros: [
+      'Trusted Logitech brand quality',
+      'Customizable RGB lighting with 16.8M colors',
+      '6 programmable buttons',
+      'Gaming-grade sensor with 8K DPI',
+      'Lightweight design at 85g'
+    ],
+    cons: [
+      'Wired connection only',
+      'Limited DPI compared to premium mice',
+      'Basic sensor compared to high-end options',
+      'May not suit professional esports'
+    ],
+    bestFor: ['Budget Gaming', 'RGB Gaming', 'Casual Gaming', 'First Gaming Mouse'],
+    affiliateLink: 'https://amzn.to/46ETfMy',
+    description: 'Gaming mouse with customizable RGB lighting and 6 programmable buttons',
+    features: ['RGB Light Sync', '6 Programmable Buttons', '8K DPI Tracking', 'Light Weight'],
     inStock: true
   }
 ];
@@ -396,7 +360,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ selectedPost, onPostSelect, i
               whileTap={{ scale: 0.95 }}
             >
               <ShoppingCart className="w-6 h-6" />
-              Buy {mouse.name} on Amazon - ${mouse.price}
+              Buy {mouse.name} on Amazon - ₹{mouse.price}
               <ExternalLink className="w-5 h-5" />
             </motion.a>
           </motion.div>
@@ -442,10 +406,10 @@ const BlogSection: React.FC<BlogSectionProps> = ({ selectedPost, onPostSelect, i
               </div>
 
               <div className="flex items-center gap-4 mb-6">
-                <div className="text-3xl font-bold text-green-500">${mouse.price}</div>
+                <div className="text-3xl font-bold text-green-500">₹{mouse.price}</div>
                 {mouse.originalPrice && (
                   <div className={`text-xl ${themeClasses.text.secondary} line-through`}>
-                    ${mouse.originalPrice}
+                    ₹{mouse.originalPrice}
                   </div>
                 )}
               </div>
@@ -509,7 +473,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ selectedPost, onPostSelect, i
               whileTap={{ scale: 0.95 }}
             >
               <ShoppingCart className="w-6 h-6" />
-              Check Current Price on Amazon
+              Check Current Price on Amazon - ₹{mouse.price}
               <ExternalLink className="w-5 h-5" />
             </motion.a>
           </motion.div>
@@ -579,7 +543,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ selectedPost, onPostSelect, i
               whileTap={{ scale: 0.95 }}
             >
               <ShoppingCart className="w-7 h-7" />
-              Get the {mouse.name} Now - ${mouse.price}
+              Get the {mouse.name} Now - ₹{mouse.price}
               <ExternalLink className="w-6 h-6" />
             </motion.a>
           </motion.div>
@@ -788,10 +752,10 @@ const BlogSection: React.FC<BlogSectionProps> = ({ selectedPost, onPostSelect, i
 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="text-2xl font-bold text-green-500">${mouse.price}</div>
+                  <div className="text-2xl font-bold text-green-500">₹{mouse.price}</div>
                   {mouse.originalPrice && (
                     <div className={`text-sm ${themeClasses.text.secondary} line-through`}>
-                      ${mouse.originalPrice}
+                      ₹{mouse.originalPrice}
                     </div>
                   )}
                 </div>
